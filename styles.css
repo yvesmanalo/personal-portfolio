@@ -11,9 +11,8 @@ body{
   flex-direction: column;
   width: 90%;
   height: 100vh;
-  margin-top: 2rem;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
+  padding-top: 2.5rem;
 }
 header, main, footer{
   width: 70%;
@@ -82,7 +81,7 @@ header nav #name-logo{
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size:1.2em;
+    font-size:0.9em;
   }
 
   #home{
@@ -95,7 +94,7 @@ header nav #name-logo{
   }
 
   #home h2{
-    font-size: 1.1em;
+    font-size: 0.9em;
   }
   
 }
