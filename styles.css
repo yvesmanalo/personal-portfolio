@@ -114,7 +114,7 @@ main .hero h2{
 }
 
 .work-experience{
-  border-width: 0 2px 2px 2px;
+  border-width: 0 0px 2px 0px;
   border-style: solid;
 }
 
@@ -209,7 +209,6 @@ footer{
   header, main, footer{
     width:90%;
     margin: 0 auto;
-    
   }
 
   header{
@@ -219,7 +218,6 @@ footer{
   header .container{
     display: flex;
     flex-direction: column;
-    
   }
 
   header .navigation{
@@ -251,8 +249,10 @@ footer{
     text-align: center;
   }
 
- 
-
+  .work-experience{
+    border-width: 0 2px 2px 2px;
+    border-style: solid;
+  }
   .company *{
     margin-bottom: 0.5em;
     font-size: 0.8rem;
@@ -280,6 +280,7 @@ footer{
   .articles{
     padding: 1em 1em 1em 1em;
   }
+
   footer{
     font-size: 0.9rem;
     padding:1em 1em 1em 1em;
