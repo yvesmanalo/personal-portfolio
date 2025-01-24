@@ -49,6 +49,7 @@ header .container{
 }
 
 .container #name-logo{
+  color: black;
   font-size: 1.5rem;
 }
 
